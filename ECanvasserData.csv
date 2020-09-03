@@ -1,0 +1,107 @@
+"Last","First","Email","Voter ID","Mobile Phone","College Year","Social Class","Registration Status","Registration State","Early Voter","Voting Plan","Mail-In Ballot Status","Voting Day","Voting Time"
+"Kokal","Angelique","angeliquekokal@college.harvard.edu","angeliquekokal@college.harvard.edu","8089873390","Sophomore",2023,"Registered","HI",FALSE,"via Mail","Requested",NA,NA
+"Morosky","Mikayla","mikaylamorosky@college.harvard.edu","mikaylamorosky@college.harvard.edu","8608811853","Senior",2021,"Registered","CT",FALSE,"In Person",NA,"11/03",15:00:00
+"Lu","Jenny","jmlu@college.harvard.edu","jmlu@college.harvard.edu","5125772087","Sophomore",2023,"Registered","TX",FALSE,"via Mail","Requested",NA,NA
+"Murdock","Em","emilymurdock@college.harvard.edu","emilymurdock@college.harvard.edu","8573209409","Junior",2022,NA,NA,NA,NA,NA,NA,NA
+"Schwartz","Grant","gschwartz@college.harvard.edu","gschwartz@college.harvard.edu","2165387702","Sophomore",2023,"Registered","OH",FALSE,"via Mail","Not Yet Requested",NA,NA
+"Mathews","Josh","joshmathews@college.harvard.edu","joshmathews@college.harvard.edu","6174179124","Senior",2021,NA,NA,NA,NA,NA,NA,NA
+"Tobelem","Antares","antarestobelem@college.harvard.edu","antarestobelem@college.harvard.edu","9544222403","Senior",2021,"Registered","FL",FALSE,"via Mail","Requested",NA,NA
+"Sedano","Jonathan","jonathan_sedano@college.harvard.edu","jonathan_sedano@college.harvard.edu","3177461811","Sophomore",2023,"Registered","IN",FALSE,"via Mail","Requested",NA,NA
+"Rolland","Spencer","spencer_rolland@college.harvard.edu","spencer_rolland@college.harvard.edu","9527157385","Junior",2022,"Registered","MN",FALSE,"In Person",NA,"11/03",07:00:00
+"Siebel","Hunter","hsiebel@college.harvard.edu","hsiebel@college.harvard.edu","6502136737","Junior",2022,"Registered","CA",TRUE,"In Person",NA,"10/26",10:00:00
+"Razzak","Ramiz","ramiz_razzak@college.harvard.edu","ramiz_razzak@college.harvard.edu","8579996286","Junior",2022,NA,NA,NA,NA,NA,NA,NA
+"Hall","Olivia","ohall@college.harvard.edu","ohall@college.harvard.edu","9195992420","Senior",2021,"Registered","NC",FALSE,"In Person",NA,"11/03",NA
+"Ma","Rachel","rachel_ma@college.harvard.edu","rachel_ma@college.harvard.edu","17322164032","Senior",2021,"Registration in Progress","NJ",FALSE,"via Mail","Not Yet Requested",NA,NA
+"Myers","Diana","dianamyers@college.harvard.edu","dianamyers@college.harvard.edu","2154353523","Senior",2021,"Registered","PA",FALSE,"via Mail","Requested",NA,NA
+"Comentale","Margaret","mcomentale@college.harvard.edu","mcomentale@college.harvard.edu","8123404953","Sophomore",2023,"Registered","IN",FALSE,"via Mail","Requested",NA,NA
+"Surani","Zoya","zoyasurani@college.harvard.edu","zoyasurani@college.harvard.edu","3615492023","Junior",2022,"Registered","TX",FALSE,"In Person",NA,"11/03",12:30:00
+"Kim","Jeremiah","jeremiahkim@college.harvard.edu","jeremiahkim@college.harvard.edu","7089458006","Sophomore",2023,"Registered","NC",FALSE,"via Mail","Requested",NA,NA
+"Fraley","Zach","zfraley@college.harvard.edu","zfraley@college.harvard.edu","2197817211","Senior",2021,"Registered","IN",FALSE,"In Person",NA,"11/03",09:00:00
+"Lama","Racheal","rlama@college.harvard.edu","rlama@college.harvard.edu","6463010231","Sophomore",2023,"Registered","NY",FALSE,"via Mail","Not Yet Requested",NA,NA
+"Habashy","Mario","mariohabashy@college.harvard.edu","mariohabashy@college.harvard.edu","2146067162","Sophomore",2023,"Registered","TX",FALSE,"via Mail","Requested",NA,NA
+"Epstein","Sonia","soniaepstein@college.harvard.edu","soniaepstein@college.harvard.edu","2127171188","Senior",2021,"Registered","NY",FALSE,"via Mail","Requested",NA,NA
+"Pasadyn","Cassandra","cassandrapasadyn@college.harvard.edu","cassandrapasadyn@college.harvard.edu","4405377374","Senior",2021,"Registered","OH",TRUE,"In Person",NA,"10/13",10:00:00
+"Shin","Angie","angieshin@college.harvard.edu","angieshin@college.harvard.edu","2132394062","Sophomore",2023,"Registered","CA",FALSE,"via Mail","Requested",NA,NA
+"Phan","Rachel","rphan@college.harvard.edu","rphan@college.harvard.edu","16176061795","Senior",2021,"Registered","MA",FALSE,"via Mail","Requested",NA,NA
+"Dvorak","Sam","sdvorak@college.harvard.edu","sdvorak@college.harvard.edu","5183626477","Sophomore",2023,"Registered","NY",FALSE,"In Person",NA,"11/03",12:00:00
+"Patel","Nidhi","nidhipatel@college.harvard.edu","nidhipatel@college.harvard.edu","6098466774","Junior",2022,"Registered","NJ",FALSE,"via Mail","Requested",NA,NA
+"Elased","Ramzi","ramzielased@college.harvard.edu","ramzielased@college.harvard.edu","9379032613","Junior",2022,"Registered","OH",FALSE,"In Person",NA,"11/03",11:00:00
+"Uwakwe","Chibuike","ckuwakwe@college.harvard.edu","ckuwakwe@college.harvard.edu","2523472130","Sophomore",2023,"Registered","NC",FALSE,"In Person",NA,"11/03",10:00:00
+"Stoddart","Aidan","aidanstoddart@college.harvard.edu","aidanstoddart@college.harvard.edu","4344659822","Senior",2021,"Registered","VA",FALSE,"via Mail","Requested",NA,NA
+"Perez","Israel","iperez@college.harvard.edu","iperez@college.harvard.edu","9712186650","Sophomore",2023,"Registration in Progress","OR",FALSE,"via Mail","Not Yet Requested","10/10",09:00:00
+"Piwowarczyk","Paulina","ppiwowarczyk@college.harvard.edu","ppiwowarczyk@college.harvard.edu","7082675804","Senior",2021,"Registered","IL",FALSE,"via Mail","Requested",NA,NA
+"Wolf","Oliver","oliverwolf@college.harvard.edu","oliverwolf@college.harvard.edu","7818598693","Junior",2022,"Registered","MA",FALSE,"via Mail","Requested",NA,NA
+"Mui","Christine","christinemui@college.harvard.edu","christinemui@college.harvard.edu","3128230339","Sophomore",2023,"Registration in Progress","IL",FALSE,"In Person",NA,"11/03",08:00:00
+"Kaiser","Stephanie","skaiser@college.harvard.edu","skaiser@college.harvard.edu","2163745835","Sophomore",2023,"Registered","OH",FALSE,"via Mail","Not Yet Requested",NA,NA
+"Kakala","Isileli","ikakala@college.harvard.edu","ikakala@college.harvard.edu","2093284673","Junior",2022,"Registered","CA",FALSE,"via Mail","Requested","11/03",10:00:00
+"Riordan","Connor","criordan@college.harvard.edu","criordan@college.harvard.edu","8608799156","Sophomore",2023,"Registered","CT",FALSE,"via Mail","Requested",NA,NA
+"Kaiser","Stephanie","skaiser@college.harvard.edu","skaiser@college.harvard.edu","2163745835","Sophomore",2023,"Registered","OH",FALSE,"via Mail","Not Yet Requested",NA,NA
+"Fu","Clair","cfu@college.harvard.edu","cfu@college.harvard.edu","6176822682","Sophomore",2023,"Registered","MA",FALSE,"In Person",NA,"11/03",09:00:00
+"Riordan","Connor","criordan@college.harvard.edu","criordan@college.harvard.edu","8608799156","Sophomore",2023,"Registered","CT",FALSE,"via Mail","Requested",NA,NA
+"Yin","Michael","michaelyin@college.harvard.edu","michaelyin@college.harvard.edu","3017936001","Junior",2022,"Registered","MD",FALSE,"via Mail","Requested",NA,NA
+"Braun","Haruka","hmbraun@college.harvard.edu","hmbraun@college.harvard.edu","6027144935","Sophomore",2023,"Registered","AZ",FALSE,"via Mail","Requested",NA,NA
+"Stone","Jarod","jarodstone@college.harvard.edu","jarodstone@college.harvard.edu","2148833722","Senior",2021,"Registration in Progress","NM",FALSE,"via Mail","Not Yet Requested","11/03",12:00:00
+"Dias-Jayasinghe","Jessica","jdiasjayasinghe@college.harvard.edu","jdiasjayasinghe@college.harvard.edu","4792468595","Junior",2022,"Registered","AR",NA,NA,NA,NA,NA
+"He","Luxi","luxihe@college.harvard.edu","luxihe@college.harvard.edu","6176826993","Sophomore",2023,NA,NA,NA,NA,NA,NA,NA
+"Murrell","Sammy","samanthamurrell@college.harvard.edu","samanthamurrell@college.harvard.edu","+64275914002","Senior",2021,NA,NA,NA,NA,NA,NA,NA
+"Hu","Jonathan","jonathanhu@college.harvard.edu","jonathanhu@college.harvard.edu","6179559835","Senior",2021,NA,NA,NA,NA,NA,NA,NA
+"Gu","Jeffrey","jeffreygu@college.harvard.edu","jeffreygu@college.harvard.edu","9784309686","Sophomore",2023,"Registered","MA",FALSE,"via Mail","Not Yet Requested",NA,NA
+"Jones","Grant","gmj005@g.harvard.edu","gmj005@g.harvard.edu","16177719711",NA,NA,"Registered","MA",FALSE,"In Person",NA,"11/03",09:00:00
+"Brennan","Nicholas","nickbrennan@college.harvard.edu","nickbrennan@college.harvard.edu","5189555116","Sophomore",2023,"Registered","NY",FALSE,"In Person",NA,"11/03",08:00:00
+"Mueller","Kyle","kmueller@college.harvard.edu","kmueller@college.harvard.edu","5852679450","Junior",2022,"Registered","NY",FALSE,"via Mail","Requested","11/03",NA
+"Mahmud","Fariba","faribamahmud@college.harvard.edu","faribamahmud@college.harvard.edu","4356324916","Junior",2022,"Registered","UT",FALSE,"In Person",NA,"11/03",13:00:00
+"Altizer","Christopher","caltizer@college.harvard.edu","caltizer@college.harvard.edu","5206035028","Senior",2021,"Registered","AZ",FALSE,"via Mail","Requested",NA,NA
+"Johnson-Potter","Myer","mjohnsonpotter@college.harvard.edu","mjohnsonpotter@college.harvard.edu","4156139144","Senior",2021,NA,"CA",FALSE,"via Mail","Requested","10/13",10:00:00
+"Tran","Christina","christinatran@college.harvard.edu","christinatran@college.harvard.edu","6265600510","Senior",2021,"Registered","CA",FALSE,"via Mail","Requested",NA,NA
+"Kim","Payton","paytonkim@college.harvard.edu","paytonkim@college.harvard.edu","8324058288","Sophomore",2023,"Registered","TX",FALSE,"In Person",NA,"11/03",12:00:00
+"Coram","Megan","mcoram@college.harvard.edu","mcoram@college.harvard.edu","7819421694","Sophomore",2023,"Registered","MA",FALSE,"via Mail",NA,NA,NA
+"Hsu","Brian","brianhsu@college.harvard.edu","brianhsu@college.harvard.edu","7187559565","Junior",2022,"Registration in Progress","NY",FALSE,"via Mail","Not Yet Requested","10/25",11:00:00
+"Rees","Gavin","gavinrees@college.harvard.edu","gavinrees@college.harvard.edu","2155300512","Senior",2021,"Registered","PA",FALSE,"In Person",NA,"11/03",09:00:00
+"Kan","Benji","benji_kan@college.harvard.edu","benji_kan@college.harvard.edu","3312011684","Sophomore",2023,"Registered","IL",FALSE,"via Mail",NA,NA,NA
+"Meadows","Josiah","josiahmeadows@college.harvard.edu","josiahmeadows@college.harvard.edu","8576008988","Sophomore",2023,"Registered","GA",FALSE,"In Person",NA,"11/25",09:00:00
+"Chong","Stephen","stephenchong@g.harvard.edu","stephenchong@g.harvard.edu","6073511832",NA,NA,"Registered","MA",FALSE,"via Mail","Requested",NA,NA
+"Weiler","Genevieve","gennie.weiler@gmail.com","gennie.weiler@gmail.com","6123090465","Senior",2021,"Registered","MN",FALSE,"via Mail","Requested",NA,NA
+"Liu","Janet","jliu@college.harvard.edu","jliu@college.harvard.edu","5307461032","Sophomore",2023,"Registered","CA",FALSE,"via Mail","Requested",NA,NA
+"Sabatini","Emory","johnsabatini@college.harvard.edu","johnsabatini@college.harvard.edu","6177753250","Junior",2022,"Registered","MA",FALSE,"via Mail","Requested",NA,NA
+"Parmley","Jasmine","jasmineparmley@college.harvard.edu","jasmineparmley@college.harvard.edu","4029726079","Senior",2021,"Registered","NE",FALSE,"via Mail","Requested",NA,NA
+"Kenyatta","Naomi","nkenyatt@collegr.harvard.edu","nkenyatt@collegr.harvard.edu","9177489131","First-Year",2024,"Registration in Progress","NY",FALSE,"via Mail","Requested",NA,NA
+"Waskom","Maddi","madeleinewaskom@college.harvard.edu","madeleinewaskom@college.harvard.edu","9402102162","Junior",2022,"Registered","TX",FALSE,"via Mail","Requested",NA,NA
+"Morganbesser","Lauren","lmorganbesser@college.harvard.edu","lmorganbesser@college.harvard.edu","3106060905","First-Year",2024,"Registered","CA",FALSE,"via Mail","Not Yet Requested",NA,NA
+"Xu","Meimei","meimeixu@college.harvard.edu","meimeixu@college.harvard.edu","4703631592","First-Year",2024,"Registered","GA",FALSE,"via Mail","Requested","11/03",09:00:00
+"Malik","Ashal","amalik@college.harvard.edu","amalik@college.harvard.edu","6469864013","First-Year",2024,NA,NA,NA,NA,NA,NA,NA
+"Eagan","Madison","Madison_eagan@college.harvard.edu","Madison_eagan@college.harvard.edu","7744872738","First-Year",2024,"Registered","MA",FALSE,"via Mail","Not Yet Requested",NA,NA
+"Duncan","Claire","claireduncan@college.harvard.edu","claireduncan@college.harvard.edu","7735750248","First-Year",2024,"Registered","IL",FALSE,"via Mail","Requested",NA,NA
+"Ybema","Anjalika","anjalikaybema@college.harvard.edu","anjalikaybema@college.harvard.edu","+85251931519","First-Year",2024,NA,NA,NA,NA,NA,NA,NA
+"Lisk","Rebecca","rlisk@college.harvard.edu","rlisk@college.harvard.edu","8157424356","Senior",2021,"Registered","IL",FALSE,"via Mail","Not Yet Requested",NA,NA
+"Ruppert","Sephora","sephoraruppert@college.harvard.edu","sephoraruppert@college.harvard.edu","6172303952","Junior",2022,NA,NA,NA,NA,NA,NA,NA
+"Groth","Michelle","michellegroth@college.harvard.edu","michellegroth@college.harvard.edu","5052529968","Junior",2022,"Registration in Progress","MA",FALSE,"via Mail","Not Yet Requested",NA,NA
+"Jarrell","Erica","ejarrell@college.harvard.edu","ejarrell@college.harvard.edu","7816358665","Senior",2021,"Registered","MA",FALSE,"via Mail","Requested","09/01",20:00:00
+"Roberts","Milan","milanroberts@college.harvard.edu","milanroberts@college.harvard.edu","8579280588","Senior",2021,NA,NA,NA,NA,NA,NA,NA
+"Agada","Achele","oagada@college.harvard.edu","oagada@college.harvard.edu","+447840223408","Sophomore",2023,NA,NA,NA,NA,NA,NA,NA
+"Lucas","Heidi","heidilucas@college.harvard.edu","heidilucas@college.harvard.edu","6134304461","Sophomore",2023,NA,NA,NA,NA,NA,NA,NA
+"Lowell","Christina","christinalowell@college.harvard.edu","christinalowell@college.harvard.edu","3018756383","Junior",2022,"Registered","MD",FALSE,"via Mail","Requested",NA,NA
+"Alfaqeeh","Yasmeen","alfaqeeh1234@gmail.com","alfaqeeh1234@gmail.com","5309364234","Sophomore",2023,"Registered","CA",FALSE,"via Mail","Requested",NA,NA
+"Bargell","Cassidy","cassidybargell@college.harvard.edu","cassidybargell@college.harvard.edu","9703893223","Junior",2022,"Registered","CO",FALSE,"via Mail","Requested",NA,NA
+"Pipkin","Alexandra","alexandrapipkin@college.harvard.edu","alexandrapipkin@college.harvard.edu","4432556016","Sophomore",2023,"Registered","MD",FALSE,"In Person",NA,"11/03",NA
+"Darnton","Chiara","cdarnton@college.harvard.edu","cdarnton@college.harvard.edu","4043243116","Junior",2022,NA,"GA",FALSE,"In Person",NA,"11/03",09:00:00
+"Barr","Francesca","fbarr@college.harvard.edu","fbarr@college.harvard.edu","5085642426","Junior",2022,NA,NA,NA,NA,NA,NA,NA
+"Hartung","Kimberly","kimberlyhartung@college.harvard.edu","kimberlyhartung@college.harvard.edu","16134852613","Sophomore",2023,NA,NA,NA,NA,NA,NA,NA
+"Rivera","Alicia","aliciarivera@college.harvard.edu","aliciarivera@college.harvard.edu","9177235424","Junior",2022,"Registered","NY",FALSE,"In Person",NA,"11/03",10:00:00
+"Sacher","Elianne","eliannesacher@gmail.com","eliannesacher@gmail.com","9295033904","First-Year",2024,"Registration in Progress","NJ",FALSE,"via Mail","Not Yet Requested",NA,NA
+"Kearney","Emma","emmakearney@college.harvard.edu","emmakearney@college.harvard.edu","9788460943","Junior",2022,"Registered","MA",FALSE,"In Person",NA,"11/03",15:00:00
+"Hamlin","Erin","ehamlin@college.harvard.edu","ehamlin@college.harvard.edu","5084363345","Sophomore",2023,"Registered","MA",FALSE,"In Person",NA,"11/03",16:00:00
+"Cataltepe","Arda","acataltepe@college.harvard.edu","acataltepe@college.harvard.edu","7817754825","Sophomore",2023,"Registered","MA",FALSE,"via Mail","Requested",NA,NA
+"Tsotsong","Dekyi","dtsotsong@college.harvard.edu","dtsotsong@college.harvard.edu","2019814655","First-Year",2024,"Registered","NJ",FALSE,"via Mail","Requested","11/03",11:00:00
+"Brown","Isabel","ibrown@college.harvard.edu","ibrown@college.harvard.edu","6176970239","First-Year",2024,"Registered","MA",TRUE,"In Person",NA,"10/31",10:00:00
+"Oladipo","Olayeni","olayeni_oladipo@college.harvard.edu","olayeni_oladipo@college.harvard.edu","17812981476","Sophomore",2023,"Registration in Progress","MA",NA,NA,NA,NA,NA
+"Handler","Julian","jhandler@college.harvard.edu","jhandler@college.harvard.edu","3109089163","First-Year",2024,"Registered","CA",FALSE,"via Mail","Requested",NA,NA
+"Lu","Jonathan","jlu@college.harvard.edu","jlu@college.harvard.edu","4696014633","Sophomore",2023,"Registered","TX",FALSE,"via Mail","Requested",NA,NA
+"Zhang","Alan","alanzhang@college.harvard.edu","alanzhang@college.harvard.edu","2489093893","First-Year",2024,"Registered","MI",FALSE,"via Mail","Requested","09/15",NA
+"Badon","Dara","dmbadon@college.harvard.edu","dmbadon@college.harvard.edu","2255888593","Junior",2022,"Registered","LA",FALSE,"In Person",NA,"11/03",07:00:00
+"Salcedo","Giovanni","gsalcedo@college.harvard.edu","gsalcedo@college.harvard.edu","5593674836","Sophomore",2023,"Registered","CA",FALSE,"via Mail","Requested",NA,NA
+"Brahaj","Artea","abrahaj@college.harvard.edu","abrahaj@college.harvard.edu","3479517455","Sophomore",2023,"Registered","NY",FALSE,"In Person",NA,"11/03",13:00:00
+"Faber","Sarah","sfaber@college.harvard.edu","sfaber@college.harvard.edu","9149243325","First-Year",2024,"Registered","NY",FALSE,"via Mail","Requested",NA,NA
+"Wright","Erin","erin_wright@college.harvard.edu","erin_wright@college.harvard.edu","12624421710","Senior",2021,"Registered","WI",FALSE,"via Mail","Requested",NA,NA
+"Simpson","Samantha","ssimpson@college.harvard.edu","ssimpson@college.harvard.edu","6174138321","Sophomore",2023,"Registered","MA",FALSE,"In Person",NA,"11/03",16:00:00
+"Jiang","Tracy","tjiang@college.harvard.edu","tjiang@college.harvard.edu","6465955363","First-Year",2024,"Registered","NY",FALSE,"via Mail","Requested",NA,NA
+"Penner Brown","Lilah","lilahpennerbrown@college.harvard.edu","lilahpennerbrown@college.harvard.edu","4088070347","Sophomore",2023,"Registration in Progress","CA",FALSE,"via Mail","Requested",NA,NA

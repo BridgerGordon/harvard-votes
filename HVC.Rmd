@@ -1,0 +1,120 @@
+---
+title: "Harvard Votes"
+author: "Bridger Gordon"
+date: "9/1/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Load in libraries.
+library(tidyverse)
+library(janitor)
+library(dplyr)
+library(lubridate)
+library(stringr)
+
+```
+
+## R Markdown
+
+
+```{r data, warning = FALSE}
+
+# Load in the downloaded CSV to a dataframe in R.
+hvc <- read_csv("Pledge to Vote College 2020 (Responses) - Form Responses 1.csv",
+                col_types = cols(.default = col_factor(),
+                                 `What time do you plan on voting? Add this time to your calendar! Leave at least two hours to vote given potential lines on election day. Find your polling hours` = col_time(format = ""))) %>%
+  
+  # Clean up the column names
+  clean_names() %>%
+  
+  # Rename a few columns, and manipulate a few others
+  mutate("First" = first_name,
+         "Last" = last_name,
+         "Email" = email_address,
+         "Mobile Phone" = phone_number,
+         
+         # Change grad year from factor to integer
+         SocialClass = as.numeric(as.character(graduation_year)),
+         
+         # Change "planning on voting" from factor to integer
+         PlanningVoting = as.numeric(are_you_planning_to_vote_in_the_november_3rd_general_election),
+         
+         # Change registration status from factor to integer
+         # Level 1 is registered, Levels 2-4 are registration in progress
+         # Else if eligible to vote, they are unregistered
+         registered = as.numeric(are_you_registered),
+         
+         # Change voting plan from factor to integer
+         # Level 1 is by mail, Level 2 is in person on election day, Level 3 is early voting in person
+         votingPlan = as.numeric(how_are_you_planning_to_vote_check_your_states_voting_options_at_howto_vote),
+         
+         # Change vote-by-mail status from factor variable to integer
+         # Level 3, 4, and 6 have not requested mail ballot yet; the other levels have
+         mailStatus = as.numeric(if_voting_by_mail_what_is_your_status),
+         
+         # Change the Voting Day column to a constant-format character string
+         "day" = as.character(as.Date(what_day_do_you_plan_on_voting, format = "%m/%d/%y")),
+         
+         # Rename the time column
+         "time" = what_time_do_you_plan_on_voting_add_this_time_to_your_calendar_leave_at_least_two_hours_to_vote_given_potential_lines_on_election_day_find_your_polling_hours
+         ) %>%
+  
+  # Remove the year number from the Day column
+  mutate("day" = str_sub(day, 6, 10)) %>%
+  
+  # Change the State string to just the postal code abbreviation
+  mutate("state" = str_sub(state_where_you_are_registered_to_vote, -2))
+  
+# For easier data manipulation, discard columns that aren't necessary to the data being used
+final_hvc <- hvc[, c("First", "Last", "Email", "Mobile Phone", "SocialClass", "PlanningVoting", "registered", "state", "votingPlan", "mailStatus", "day", "time")]
+                     
+
+final_hvc <- final_hvc %>%
+  
+  # Create a new, Voter ID column with their email
+  mutate("Voter ID" = Email) %>%
+  
+  # Create a College Year column based on social class that lists in word-format their class
+  mutate("College Year" = ifelse(SocialClass == 2021, "Senior", 
+                                 ifelse(SocialClass == 2022, "Junior",
+                                        ifelse(SocialClass == 2023, "Sophomore", 
+                                               ifelse(SocialClass == 2024, "First-Year", "Unknown"))))) %>%
+  
+  # Map the integer variable from the original database onto the correct string for registration status
+  mutate("Registration Status" = ifelse(registered == 1, "Registered", 
+                                        ifelse(registered == 2 | registered == 3 | registered == 4, 
+                                               "Registration in Progress",
+                                               ifelse(PlanningVoting == 2, "Unregistered", "Unknown")))) %>%
+  
+  # Map the integer variable from the original database onto a boolean true/false for whether or not they are voting early
+  mutate("Early Voter" = ifelse(votingPlan == 3, TRUE, 
+                                ifelse(votingPlan == 1 | votingPlan == 2, FALSE, NA))) %>%
+  
+  # Map the integer variable from the original database onto a string of if voting in person or by mail
+  mutate("Voting Plan" = ifelse(votingPlan == 2 | votingPlan == 3, "In Person",
+                                ifelse(votingPlan == 1, "via Mail", NA))) %>%
+  
+  # Map the integer variable from the database onto whether they have requested a mail-in ballot yet, if voting by mail
+  mutate("Mail-In Ballot Status" = ifelse(votingPlan != 1, NA, 
+                                          ifelse(mailStatus == 6 | mailStatus == 4 | mailStatus == 3, 
+                                                 "Not Yet Requested", 
+                                                 "Requested"))) %>%
+  
+  # Rename remaining columns for formatting
+  mutate("Social Class" = SocialClass,
+         "Registration State" = state,
+         "Voting Time" = time,
+         
+         # Change the Voting Day strings from a dash between month day to a slash
+         "Voting Day" = gsub("-", "/", day))
+
+# Select just the columns that are needed for the final data
+formatted_hvc <- final_hvc[, c("Last", "First", "Email", "Voter ID", "Mobile Phone", "College Year", "Social Class", "Registration Status", "Registration State", "Early Voter", "Voting Plan", "Mail-In Ballot Status", "Voting Day", "Voting Time")]
+
+# Save the final, formatted data in a CSV file
+write.csv(formatted_hvc, "ECanvasserData.csv", row.names = FALSE)
+
+```
